@@ -1,0 +1,16 @@
+The code asks for the user's name and address, then prints them out. It uses the input() function to get user input and stores it in the name and address variables. The code then uses string concatenation to print out a message with the user's name and address. This is a simple example of user input and output in Python.
+
+
+
+
+# Asking for the user's name
+name = input("What is your name? ")
+
+# Printing the user's name
+print("Username: " + name)
+
+# Asking for the user's address
+address = input("Where are you from? ")
+
+# Printing the user's name and address
+print(name + " lives in " + address)

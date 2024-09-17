@@ -1,0 +1,15 @@
+The code unpacks values from a tuple and a list into variables a, b, and c. The tuple number_tuple and list number_list contain the values 1, 2, and 3. The code then prints the sum of these values. This demonstrates Python's ability to unpack iterable data structures into individual variables, making it easy to work with collections of values.
+
+
+
+```python
+# Using tuple
+number_tuple = (1, 2, 3)
+a, b, c = number_tuple
+print(a + b + c)
+
+# Using list
+number_list = [1, 2, 3]
+a, b, c = number_list
+print(a + b + c)
+```

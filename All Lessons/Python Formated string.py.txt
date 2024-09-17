@@ -1,0 +1,20 @@
+The code demonstrates string concatenation and formatted strings in Python. It defines two variables, name and codename, and uses them to create a message. The first method uses the + operator to concatenate strings, while the second method uses an f-string to format the string. Both methods produce the same output: "nozeman parikey (nf) teaches ai".
+
+
+
+
+
+
+
+
+# Using concatenation
+name = "nozeman parikey"
+codename = "nf"
+message = name + " (" + codename + ") teaches ai"
+print(message)
+
+# Using formatted string
+name = "nozeman parikey"
+codename = "nf"
+message_1 = f"{name} ({codename}) teaches ai"
+print(message_1)

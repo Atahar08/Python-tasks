@@ -1,0 +1,16 @@
+The code defines a tuple number_tuple with three elements. It prints the tuple, accesses the element at index 1, and attempts to modify it (which raises a TypeError since tuples are immutable). The code also counts the occurrences of the number 2 and finds its index in the tuple, demonstrating basic tuple operations in Python, including indexing, counting, and indexing methods.
+
+
+
+
+# Ask for temperature in Celsius
+celsius = input("Enter temperature in Celsius: ")
+
+# Convert Celsius from string to integer
+celsius = int(celsius)
+a
+# Convert Celsius to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Print the result
+print("Temperature in Fahrenheit:", fahrenheit)

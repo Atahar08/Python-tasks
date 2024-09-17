@@ -1,0 +1,23 @@
+The code showcases mathematical functions in Python. It rounds a number (5.7) to the nearest integer, calculates the absolute value of a negative number (-5.7), and uses the math module to find the ceiling (6) and floor (5) of 5.7. Additionally, it calculates the factorial of 5 (120). The code demonstrates basic mathematical operations and functions available in Python.
+
+
+
+
+# Round function example
+x = 5.7
+print(round(x))
+
+# Absolute value function example
+print(abs(-5.7))
+
+# Using the math module
+import math
+
+# Ceiling value
+print(math.ceil(5.7))
+
+# Floor value
+print(math.floor(5.7))
+
+# Factorial function
+print(math.factorial(5))

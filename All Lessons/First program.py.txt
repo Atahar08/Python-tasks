@@ -1,0 +1,11 @@
+The code prints three messages: "hello world", "this is our first python code", and "how can we print output". It then prints a line of 20 asterisks (*) using the expression '*' * 20. This code demonstrates basic print statements and string multiplication in Python, allowing users to output text and create simple patterns.
+
+
+
+
+print('hello world')
+
+print('this is our first python code')
+print('how can we print output')
+
+print('*'20)

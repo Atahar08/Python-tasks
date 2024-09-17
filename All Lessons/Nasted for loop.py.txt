@@ -1,0 +1,8 @@
+The code uses nested for loops to print coordinates. The outer loop iterates over x values from 0 to 3, and the inner loop iterates over y values from 0 to 3. For each iteration, it prints a coordinate pair (x, y). This results in printing 16 coordinates, ranging from (0, 0) to (3, 3), in a grid-like pattern.
+
+
+```python
+for x in range(4):
+    for y in range(4):
+        print(f"({x}, {y})")
+```

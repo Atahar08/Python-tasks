@@ -1,0 +1,19 @@
+The code defines a function add that takes two numbers as input and returns their sum. When called with arguments 1 and 2, it prints the result 3. If the return statement is removed, the function prints the sum but returns None. This demonstrates the difference between printing a value and returning a value from a function in Python.
+
+
+
+
+```python
+def add(number_1, number_2):
+    return number_1 + number_2
+
+result = add(1, 2)
+print(result)
+
+# If you remove the return statement, the function looks like this:
+def add(number_1, number_2):
+    print(number_1 + number_2)
+
+# Calling this will output None
+add(1, 2)
+```

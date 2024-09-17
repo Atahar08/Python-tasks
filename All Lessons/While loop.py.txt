@@ -1,0 +1,12 @@
+The code defines and prints various variables: age (integer), weight (float), name (string), and good_programmer (boolean). It then reassigns values to age and good_programmer. The code also defines variables for a product: product_name, price, expiry_date, and discount_available, and prints their values. This demonstrates basic variable declaration, assignment, and printing in Python.
+
+
+
+
+```python
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+print("While loop ended")
+```
